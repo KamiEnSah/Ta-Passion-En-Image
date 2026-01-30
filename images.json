@@ -1,0 +1,12 @@
+[{"nom":"Méduse_Corpus_Christi",
+"description":"Cette méduse, bien que commune, est une des plus belles",
+"image":"meduse_corpus_christi"},
+{"nom":"Méduse_Criniere_De_Lion",
+"description":"L'une des plus grandes méduses au monde, avec des tentacules pouvant atteindre 30 mètres.",
+"image":"meduse_criniere_de_lion"},
+{"nom":"Méduse_Enigma",
+"description":"Une espèce mystérieuse des profondeurs océaniques, rarement observée.",
+"image":"meduse_enigma"},
+{"nom":"Aequorea_Victoria",
+"description":"Une méduse dont la découverte à permis de nombreux progrés scientifiques, ainsi qu'un prix  Nobel",
+"image":"aequorea_victoria"}]

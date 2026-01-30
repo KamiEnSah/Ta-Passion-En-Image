@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE 105 Calmette Ilan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup popup_invisible">
+        <img id="popup-image" src="" alt="Image agrandie">
+    </div>
+
+    <h1>Les Méduses</h1>
+
+    <p>A travers cette page web, je vais vous présenter ma créature sous-marine préférée: la méduse (ou plutôt les méduses, car il en existe environ 1500 espèces différents)</p>
+    
+    <h2>Quelques faits sur les méduses</h2>
+
+    <ul>
+        <li><strong>Leur nom provient bien de la créature mythologique Méduse</strong>, le movement de leurs tentacules rappelant ceux des serpents</li>
+        <li><strong>Elles n'ont ni squelette, ni carapace</strong>, ni aucune forme de protection</li>
+        <li><strong>Bien qu'elles aient l'air d'être de simples organismes</strong>, elles possèdent en réalité des structures nerveuses très complexes, ainsi que de nombreux tissus musculaires</li>
+    </ul>
+    
+    <p>Je vais donc commencer par présenter quelques espèces de méduses se démarquant des autres.</p>
+    
+    <h2>Quelques espèces de méduses particulières:</h2>
+
+    <div class="liste-images"></div>
+
+    <h2>Mes photos</h2>
+
+    <p>Voici quelques photos de méduses que j'ai pu prendre lors de visites dans des aquariums.</p>
+
+    <div class="liste-photos"></div>
+
+    <h2>Ajoutez votre propre image</h2>
+
+    <div class="formulaire-container">
+        <div class="champ-formulaire">
+            <label for="titre">Titre de l'image :</label>
+            <input type="text" id="titre" placeholder="Ex: Méduse Bleue">
+        </div>
+
+        <div class="champ-formulaire">
+            <label for="description">Description :</label>
+            <input type="text" id="description" placeholder="Ex: Une magnifique méduse observée dans l'océan Pacifique">
+        </div>
+
+        <div class="champ-formulaire">
+            <label for="url">URL de l'image :</label>
+            <input type="text" id="url" placeholder="Ex: https://exemple.com/image.jpg">
+        </div>
+
+        <div id="apercu-container">
+            <h3>Aperçu en direct :</h3>
+            <div class="apercu">
+                <h3 id="apercu-titre">Titre de l'image</h3>
+                <img id="apercu-image" src="" alt="Aperçu">
+                <p id="apercu-description" class="description">Description de l'image</p>
+            </div>
+        </div>
+
+        <div class="champ-formulaire">
+            <input type="button" value="Ajouter l'image" id="bouton-envoi">
+        </div>
+    </div>
+
+    <h2>Vos images</h2>
+    <div class="liste-vos-images">
+        <p class="message-vide">Aucune image ajoutée pour le moment. Utilisez le formulaire ci-dessus pour ajouter vos propres méduses !</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+  <strong>- Mentions légales -</strong><br>
+  Calmette Ilan <br>
+  ilan.calmette@gmail.com<br>
+  Propriété intellectuelle des images: © Wikimedia Commons , et © Ilan Calmette <br>
+  <strong>Mentions relatives à l'hébergeur du site :</strong>
+  <a href=" https://www.o2switch.fr">o2switch</a> <br>
+  Chem. des Pardiaux, 63000 Clermont-Ferrand, France
+  04 44 44 60 40
+</footer>
+</html>
